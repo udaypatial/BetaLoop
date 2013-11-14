@@ -9,11 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @class ViewController;
+@class LoginViewController;
+@class AppListingViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+
+
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) AppListingViewController *appListingViewController;
+@property (strong, nonatomic) LoginViewController * loginView;
 
 @end
